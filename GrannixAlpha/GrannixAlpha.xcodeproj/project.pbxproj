@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F053A9C417852B0200C5ACD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F053A9C317852B0200C5ACD4 /* UIKit.framework */; };
+		F053A9C617852B0200C5ACD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F053A9C517852B0200C5ACD4 /* Foundation.framework */; };
+		F053A9C817852B0200C5ACD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F053A9C717852B0200C5ACD4 /* CoreGraphics.framework */; };
+		F053A9CE17852B0200C5ACD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F053A9CC17852B0200C5ACD4 /* InfoPlist.strings */; };
+		F053A9D017852B0200C5ACD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F053A9CF17852B0200C5ACD4 /* main.m */; };
+		F053A9D417852B0300C5ACD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F053A9D317852B0300C5ACD4 /* AppDelegate.m */; };
+		F053A9D617852B0300C5ACD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F053A9D517852B0300C5ACD4 /* Default.png */; };
+		F053A9D817852B0300C5ACD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F053A9D717852B0300C5ACD4 /* Default@2x.png */; };
+		F053A9DA17852B0300C5ACD4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F053A9D917852B0300C5ACD4 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F053A9C017852B0200C5ACD4 /* GrannixAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrannixAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F053A9C317852B0200C5ACD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F053A9C517852B0200C5ACD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F053A9C717852B0200C5ACD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F053A9CB17852B0200C5ACD4 /* GrannixAlpha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrannixAlpha-Info.plist"; sourceTree = "<group>"; };
+		F053A9CD17852B0200C5ACD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F053A9CF17852B0200C5ACD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F053A9D117852B0300C5ACD4 /* GrannixAlpha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrannixAlpha-Prefix.pch"; sourceTree = "<group>"; };
+		F053A9D217852B0300C5ACD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F053A9D317852B0300C5ACD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F053A9D517852B0300C5ACD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F053A9D717852B0300C5ACD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F053A9D917852B0300C5ACD4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F053A9BD17852B0200C5ACD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F053A9C417852B0200C5ACD4 /* UIKit.framework in Frameworks */,
+				F053A9C617852B0200C5ACD4 /* Foundation.framework in Frameworks */,
+				F053A9C817852B0200C5ACD4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F053A9B717852B0200C5ACD4 = {
+			isa = PBXGroup;
+			children = (
+				F053A9C917852B0200C5ACD4 /* GrannixAlpha */,
+				F053A9C217852B0200C5ACD4 /* Frameworks */,
+				F053A9C117852B0200C5ACD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F053A9C117852B0200C5ACD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F053A9C017852B0200C5ACD4 /* GrannixAlpha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F053A9C217852B0200C5ACD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F053A9C317852B0200C5ACD4 /* UIKit.framework */,
+				F053A9C517852B0200C5ACD4 /* Foundation.framework */,
+				F053A9C717852B0200C5ACD4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F053A9C917852B0200C5ACD4 /* GrannixAlpha */ = {
+			isa = PBXGroup;
+			children = (
+				F053A9D217852B0300C5ACD4 /* AppDelegate.h */,
+				F053A9D317852B0300C5ACD4 /* AppDelegate.m */,
+				F053A9CA17852B0200C5ACD4 /* Supporting Files */,
+			);
+			path = GrannixAlpha;
+			sourceTree = "<group>";
+		};
+		F053A9CA17852B0200C5ACD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F053A9CB17852B0200C5ACD4 /* GrannixAlpha-Info.plist */,
+				F053A9CC17852B0200C5ACD4 /* InfoPlist.strings */,
+				F053A9CF17852B0200C5ACD4 /* main.m */,
+				F053A9D117852B0300C5ACD4 /* GrannixAlpha-Prefix.pch */,
+				F053A9D517852B0300C5ACD4 /* Default.png */,
+				F053A9D717852B0300C5ACD4 /* Default@2x.png */,
+				F053A9D917852B0300C5ACD4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F053A9BF17852B0200C5ACD4 /* GrannixAlpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F053A9DD17852B0300C5ACD4 /* Build configuration list for PBXNativeTarget "GrannixAlpha" */;
+			buildPhases = (
+				F053A9BC17852B0200C5ACD4 /* Sources */,
+				F053A9BD17852B0200C5ACD4 /* Frameworks */,
+				F053A9BE17852B0200C5ACD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrannixAlpha;
+			productName = GrannixAlpha;
+			productReference = F053A9C017852B0200C5ACD4 /* GrannixAlpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F053A9B817852B0200C5ACD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Grannix;
+			};
+			buildConfigurationList = F053A9BB17852B0200C5ACD4 /* Build configuration list for PBXProject "GrannixAlpha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F053A9B717852B0200C5ACD4;
+			productRefGroup = F053A9C117852B0200C5ACD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F053A9BF17852B0200C5ACD4 /* GrannixAlpha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F053A9BE17852B0200C5ACD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F053A9CE17852B0200C5ACD4 /* InfoPlist.strings in Resources */,
+				F053A9D617852B0300C5ACD4 /* Default.png in Resources */,
+				F053A9D817852B0300C5ACD4 /* Default@2x.png in Resources */,
+				F053A9DA17852B0300C5ACD4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F053A9BC17852B0200C5ACD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F053A9D017852B0200C5ACD4 /* main.m in Sources */,
+				F053A9D417852B0300C5ACD4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F053A9CC17852B0200C5ACD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F053A9CD17852B0200C5ACD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F053A9DB17852B0300C5ACD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F053A9DC17852B0300C5ACD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F053A9DE17852B0300C5ACD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrannixAlpha/GrannixAlpha-Prefix.pch";
+				INFOPLIST_FILE = "GrannixAlpha/GrannixAlpha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F053A9DF17852B0300C5ACD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrannixAlpha/GrannixAlpha-Prefix.pch";
+				INFOPLIST_FILE = "GrannixAlpha/GrannixAlpha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F053A9BB17852B0200C5ACD4 /* Build configuration list for PBXProject "GrannixAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F053A9DB17852B0300C5ACD4 /* Debug */,
+				F053A9DC17852B0300C5ACD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F053A9DD17852B0300C5ACD4 /* Build configuration list for PBXNativeTarget "GrannixAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F053A9DE17852B0300C5ACD4 /* Debug */,
+				F053A9DF17852B0300C5ACD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F053A9B817852B0200C5ACD4 /* Project object */;
+}
