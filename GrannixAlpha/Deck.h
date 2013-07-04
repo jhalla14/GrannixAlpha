@@ -10,4 +10,7 @@
 
 @interface Deck : NSObject
 
+//holds the contents of the deck
+@property (strong, nonatomic) NSMutableArray *contents;
+
 @end
